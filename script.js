@@ -7,4 +7,10 @@ const weatherIcon = document.querySelector(".weather-icon");
 
 async function checkweather(city){
     const response = await fetch(apiURL + city + `&appid=${apiKey}`);
+
+    document.querySelector(".city").innerHTML = data.name;
+    document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°c";
+    document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
+    document.querySelector(".wind").innerHTML = data.wind.speed + "km/h";
+
 }
