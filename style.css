@@ -163,15 +163,16 @@
     padding-left: 85px;
   }
 
-  .details .col #windImg{
+  .details .col #windImg {
     margin-top: 20px;
   }
 
-  .weather h1{
+  .weather h1 {
     font-size: 60px;
     font-weight: 500;
   }
-  .weather h2{
+
+  .weather h2 {
     font-size: 30px;
     font-weight: 400;
     margin-top: -10px;
