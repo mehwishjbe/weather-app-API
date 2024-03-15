@@ -101,10 +101,35 @@
   display: none;
 }
 
-.search button:hover{
+.search button:hover {
   filter: brightness(0.9);
 }
 
-.search button:achtive{
+.search button:achtive {
   transform: translateY(2px);
+}
+
+@media (max-width: 500px) {
+  .search input {
+    height: 50px;
+  }
+
+  .search button {
+    height: 50px;
+    width: 50px;
+  }
+
+  .search button img {
+    height: 25px;
+    width: 19px;
+  }
+
+  .humidity{
+    font-size: 20px;
+    margin-top: -6px;
+  }
+  .wind{
+    font-size: 20px;
+    margin-top: -6px;
+  }
 }
