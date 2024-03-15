@@ -200,4 +200,24 @@
     font-size: 15px;
     margin-top: 15px;
   }
+
+  .details .col #humidityImg {
+    margin-top: 20px;
+    width: 30px;
+  }
+
+  .wind {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+
+  .details .col #windImg {
+    margin-top: 20px;
+    width: 30px;
+  }
+
+  .details {
+    display: block;
+    padding-left: 85px;
+  }
 }
