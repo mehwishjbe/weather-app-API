@@ -39,4 +39,4 @@ The project's file structure is straightforward and consists of the following ma
 To run this project locally:
 
 1. Clone the repository to your local machine.
-2. Open `index.html` in your browser to view the app.
+
