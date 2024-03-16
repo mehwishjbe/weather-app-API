@@ -2,6 +2,9 @@
 
 This simple yet powerful application allows you to check the current weather conditions for cities around the globe. Leveraging real-time data from the OpenWeatherMap API, the app provides you with temperature, humidity, and wind speed details at a glance.
 
+#### Web Design Preview
+![Weather API app](./images/preview_1.JPG)
+
 ## Live Demo
 
 You can try out the Weather App [here](https://mehwishjbe.github.io/weather-app-API/).
